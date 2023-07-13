@@ -1,0 +1,93 @@
+.main-mtb-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mtb-cloud-img {
+  max-width: 80%;
+  height: auto;
+
+}
+
+.single-buddy-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 2%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.buddy-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.buddy-text-container{
+  display: flex;
+  text-align: left;
+  font-size: 1.9rem;
+  font-family: 'Bubblegum Sans', cursive;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 7% 7% 7% 10%;
+}
+
+.buddy-on-cloud {
+  position: relative;
+}
+.cloud-one {
+  width: calc(100% - 1%);
+  position: absolute;
+  left: -3%;
+  bottom: 80px;
+  transform: scaleX(-1);
+}
+
+.cloud-one-buddy2 {
+  width: calc(100% - 1%);
+  position: absolute;
+  right: 13%;
+  bottom: 36px;
+  transform: scaleX(-1);
+}
+.cloud-one-buddy3 {
+  width: calc(100% - 1%);
+  position: absolute;
+  left: 20%;
+  bottom: 5px;
+}
+.cloud-two {
+  width: calc(100% - 1%);
+  position: absolute;
+  left:25%;
+  top: 100px;
+}
+.cloud-two-buddy2 {
+  width: calc(100% - 1%);
+  position: absolute;
+  left: 13%;
+  bottom: 101px;
+}
+.cloud-two-buddy3 {
+  width: calc(100% - 1%);
+  position: absolute;
+  bottom: 79px;
+  left: -17%;
+  transform: scaleX(-1);
+}
+
+#buddy2-container{flex-direction: row-reverse;}
+
+#buddy2 {width: 450px;}
+#buddy3 {
+  width: 450px;
+  top: 65px;
+}
