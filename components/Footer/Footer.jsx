@@ -14,6 +14,7 @@ export default function Footer() {
         </p>
       </div>
       <div className="footer-social-container">
+        <div className="hover-container">
         <a
           href="https://www.discord.com/"
           target="_blank"
@@ -26,6 +27,7 @@ export default function Footer() {
             className="footer-social-icon"
           />
         </a>
+        </div>
         <p id="onhoverdiscord">Coming Soon!</p>
         <a
           href="https://twitter.com/MythicalBuddies"

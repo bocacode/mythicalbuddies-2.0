@@ -1,59 +1,79 @@
 .footer-break-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-break {
-    margin: 1.56rem 3.125rem 2rem 3.125rem;
-    height: 0.02rem;
-    width: 135rem;
-    border-width:0;
-    background-color:black;
+  margin: 1.56rem 3.125rem 2rem 3.125rem;
+  height: 0.02rem;
+  width: 135rem;
+  border-width: 0;
+  background-color: black;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-logo {
-    margin-left: 3em;
-    height: 80px;
+  margin-left: 3em;
+  height: 80px;
 }
 
 .footer-text-container {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .footer-text {
-    font-family: 'Bubblegum Sans', cursive;
-    font-weight: 100;
-    font-size: 1.5rem;
-    margin-top: 1rem;
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .footer-social-container {
-    display: flex;
-    align-items: center;
-    margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  margin-right: 5rem;
 }
 
 .footer-social-icon {
-   height: 5em;
-   width: 5em;
-   padding: 0.75em;
+  height: 5em;
+  width: 5em;
+  padding: 0.75em;
 }
 
 .footer-instagram-icon {
-    height: 6em;
-    width: 6em;
-    padding: 0.75em;
+  height: 6em;
+  width: 6em;
+  padding: 0.75em;
 }
 
 #discord-icon {
   opacity: 55%;
+}
+
+.hover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-container:hover::after {
+  content: 'Coming Soon!';
+  position: absolute;
+  top: 85%;
+  left: 0;
+  padding: 3px;
+  background-color: rgb(43, 15, 183);
+  color: white;
+  opacity: 75%;
+  font-family: bubblegum sans;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: nowrap;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -62,61 +82,61 @@
   }
 }
 
-  @media only screen and (max-width: 1290px) {
+@media only screen and (max-width: 1290px) {
   .footer-break {
     margin: 1.56rem 2.5rem 0.62rem 2.5rem;
     width: 200rem;
   }
   .footer {
-     display: flex;
-     flex-direction: column-reverse;
-     justify-content: center;
-   }
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
   .footer-social-container {
-     margin-right: 0;
-   }
-   .footer-social-icon {
-     height: 5em;
-     width: 5em;
-     padding: 0.65em;
-   }
+    margin-right: 0;
+  }
+  .footer-social-icon {
+    height: 5em;
+    width: 5em;
+    padding: 0.65em;
+  }
 
-   .footer-instagram-icon {
-     height: 5.5em;
-     width: 5.5em;
-     padding: 0.65em;
-   }
-   .footer-text {
-     font-size: 1.5rem;
-   }
+  .footer-instagram-icon {
+    height: 5.5em;
+    width: 5.5em;
+    padding: 0.65em;
+  }
+  .footer-text {
+    font-size: 1.5rem;
+  }
 
-   .footer-logo {
-     height: auto;
-     width: 25%;
-     margin-top: 1rem;
-     margin-left: 0;
-   }
+  .footer-logo {
+    height: auto;
+    width: 25%;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 650px) {
-   .footer-social-container {
-      margin-right: 0;
-    }
-    .footer-social-icon {
-      height: 3em;
-      width: 3em;
-      padding: 0.65em;
-    }
+  .footer-social-container {
+    margin-right: 0;
+  }
+  .footer-social-icon {
+    height: 3em;
+    width: 3em;
+    padding: 0.65em;
+  }
 
-    .footer-instagram-icon {
-      height: 3.5em;
-      width: 3.5em;
-      padding: 0.65em;
-    }
+  .footer-instagram-icon {
+    height: 3.5em;
+    width: 3.5em;
+    padding: 0.65em;
+  }
 
-    .footer-text {
-      font-size: 1.1rem;
-    }
+  .footer-text {
+    font-size: 1.1rem;
+  }
 }
 
 #onhoverdiscord {
@@ -124,15 +144,3 @@
   width: 0px;
   height: 0px;
 }
-/* #discord-icon:hover ~ #onhoverdiscord {
-  visibility: visible;
-  position: absolute;
-  font-family: 'Bubblegum Sans', cursive;
-  height: 160px;
-  right: 380px;
-} */
-
-
-/* .footer-text {
-  font-size: 0.7rem;
-} */
